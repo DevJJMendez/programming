@@ -1,0 +1,6 @@
+# .NET Framework (2002)
+![dotNet](images/dotNetVersions.webp)
+# .NET Core (2016)
+![dotNet](images/dotNetCoreVersions.jpg)
+# .NET (Unificación desde 2020 con .NET 5 en adelante)
+![releases](images/release-schedule.svg)

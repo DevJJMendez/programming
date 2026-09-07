@@ -1,0 +1,203 @@
+{
+  "main": {
+    "id": "f7f28dbffa70e8ad",
+    "type": "split",
+    "children": [
+      {
+        "id": "effc4cdac9a7f092",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a29d630b2fb5a428",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "graph",
+              "state": {},
+              "pinned": true,
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4dfb9f94c60c55f1",
+    "type": "split",
+    "children": [
+      {
+        "id": "70135ab5a0b303b5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "65967c02d59a3f9e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "0cd66928c15c7d57",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "09d64d4ff6ce08e6",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "563f4629d3a41265",
+    "type": "split",
+    "children": [
+      {
+        "id": "0c44db65e9cc9131",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "89a367a9004c142b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Console.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Console"
+            }
+          },
+          {
+            "id": "560e144d39e24115",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Console.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Console"
+            }
+          },
+          {
+            "id": "6b397368e7178b8f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "3159635a71b313e2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Console.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Console"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "a29d630b2fb5a428",
+  "lastOpenFiles": [
+    "dotnet/files/bin-directory.md",
+    "dotnet/files/sln.md",
+    "dotnet/files/010-csproj.md",
+    "dotnet/files/011-bin.md",
+    "dotnet/files/012-sln.md",
+    "dotnet/files",
+    "fundamentals/Polymorphims.md",
+    "fundamentals/Objects.md",
+    "fundamentals/ObjectOrientedProgramming.md",
+    "fundamentals/Interfaces.md",
+    "fundamentals/Inheritance.md",
+    "fundamentals/GettersSetters.md",
+    "fundamentals/Exceptions.md",
+    "fundamentals/Encapsulation.md",
+    "fundamentals/Constructors.md",
+    "fundamentals/Console.md",
+    "fundamentals/Class.md",
+    "fundamentals/Casting.md",
+    "fundamentals/AccessModifiers.md",
+    "fundamentals/Abstraction.md",
+    "fundamentals/Abstract Class.md",
+    "fundamentals/06.8-base.md",
+    "fundamentals/06.6-virtual.md",
+    "fundamentals/04-loops.md",
+    "fundamentals/03-controlStructures.md",
+    "fundamentals/02.1-arrayClass.md",
+    "fundamentals/02.0-stringClass.md",
+    "fundamentals",
+    "fundaments",
+    "image.png"
+  ]
+}
