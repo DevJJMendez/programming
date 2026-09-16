@@ -1,10 +1,25 @@
 # Spring Boot
-Es un framework construido sobre el **Spring Framework** (no lo reemplaza, lo potencia) que permite crear aplicaciones Java de forma rápida, con configuración mínima y con todo lo necesario para producción listo desde el principio.
+## ¿Que es?
+Es un framework construido sobre el **Spring Framework** que permite crear aplicaciones Java de forma rápida, con configuración mínima y con todo lo necesario para producción listo desde el principio.
 
-Piénsalo así: **Spring Framework** es el motor, y **Spring Boot** es el auto ya armado, con las llaves puestas y listo para arrancar. Spring por sí solo te da un ecosistema de módulos increíblemente potente (Core, MVC, Data, Security, etc.), pero configurarlo manualmente (XML interminables, beans definidos a mano, servidores externos) era tedioso y propenso a errores.
+### Caracteristicas
+1. **Configuración Automática**: Proporciona configuración automática para muchas de las bibliotecas y componentes de Spring, reduciendo la necesidad de configuración manual.
 
+2. **Aplicaciones Autónomas**: Permite crear aplicaciones autónomas que pueden ejecutarse como un JAR ejecutable, sin necesidad de un servidor de aplicaciones externo.
+
+3. **Servidor Embebido**: Incluye servidores embebidos como **Tomcat**, **Jetty** y **Undertow**, facilitando el desarrollo y despliegue.
+
+4. **Dependencias Simplificadas**: Ofrece un gestor de dependencias simplificado a través de `starter POMs`, que proporcionan un conjunto de dependencias preconfiguradas para diferentes tipos de aplicaciones.
+
+5. **Actuadores**: Proporciona endpoints de monitoreo y administración para la aplicación, facilitando la observación y la gestión.
+
+### Diferencias Claves
+* **Configuración**: **Spring** requiere una configuración más manual y detallada, mientras que **Spring Boot** automatiza gran parte de la configuración.
+
+* **Arranque y Despliegue**: Spring Boot permite crear aplicaciones que se ejecutan por sí solas (con servidores embebidos), mientras que con Spring tradicional, generalmente necesitas un servidor de aplicaciones externo.
+
+* **Simplicidad y Conveniencia**: Spring Boot simplifica el desarrollo proporcionando configuraciones por defecto y herramientas de desarrollo rápidas, lo que lo hace más adecuado para microservicios y prototipos rápidos.
 --- 
-
 ## ¿Qué problema intenta resolver?
 Antes de Spring Boot (época de Spring "clásico"), desarrollar una app tenía estos dolores de cabeza:
 
@@ -21,8 +36,9 @@ Antes de Spring Boot (época de Spring "clásico"), desarrollar una app tenía e
 ---
 # ¿Cómo lo resuelve?
 Spring Boot ataca estos problemas con 4 pilares fundamentales:
+
 1. **Autoconfiguración (`@EnableAutoConfiguration`)**
-   - Detecta automáticamente qué hay en tu classpath y configura los beans necesarios. Si detecta el driver de **PostgreSQL**, configura un DataSource automáticamente. Si detecta **spring-webmvc**, configura un DispatcherServlet. Todo esto sigue el principio de "convención sobre configuración": valores por defecto sensatos que puedes sobrescribir si lo necesitas.
+   - Detecta automáticamente qué hay en tu **classpath** y configura los beans **necesarios**. Si detecta el driver de **PostgreSQL**, configura un DataSource automáticamente. Si detecta **spring-webmvc**, configura un DispatcherServlet. Todo esto sigue el principio de "convención sobre configuración": valores por defecto sensatos que puedes sobrescribir si lo necesitas.
 ```java
 @SpringBootApplication // Combina @Configuration, @EnableAutoConfiguration y @ComponentScan
 public class MiApp {

@@ -1,5 +1,14 @@
+Ahora hablemos de la Configuración de Spring, veamos las siguientes Annotations:
 
-Hablemos del Spring Container
+@Configuration
+@Bean
+@Import
+@ImportResource
+
+¿Que parametros reciben?
+Casos de uso y mejores practicas al usarlas
+
+Hablemos del ciclo de vida de los Beans
 
 Quiero comprenderlo a profundidad.
 

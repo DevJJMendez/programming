@@ -1,23 +1,4 @@
-## SpringBoot
-Es un proyecto que se construye sobre el **Spring Framework** para simplificar el desarrollo de aplicaciones Spring. Su principal objetivo es hacer que el proceso de configuración y despliegue sea más rápido y sencillo.
 
-**Caracteristicas**
-1. **Configuración Automática**: Proporciona configuración automática para muchas de las bibliotecas y componentes de Spring, reduciendo la necesidad de configuración manual.
-
-2. **Aplicaciones Autónomas**: Permite crear aplicaciones autónomas que pueden ejecutarse como un JAR ejecutable, sin necesidad de un servidor de aplicaciones externo.
-
-3. **Servidor Embebido**: Incluye servidores embebidos como **Tomcat**, **Jetty** y **Undertow**, facilitando el desarrollo y despliegue.
-
-4. **Dependencias Simplificadas**: Ofrece un gestor de dependencias simplificado a través de `starter POMs`, que proporcionan un conjunto de dependencias preconfiguradas para diferentes tipos de aplicaciones.
-
-5. **Actuadores**: Proporciona endpoints de monitoreo y administración para la aplicación, facilitando la observación y la gestión.
-
-## Diferencias Claves
-* **Configuración**: **Spring** requiere una configuración más manual y detallada, mientras que **Spring Boot** automatiza gran parte de la configuración.
-
-* **Arranque y Despliegue**: Spring Boot permite crear aplicaciones que se ejecutan por sí solas (con servidores embebidos), mientras que con Spring tradicional, generalmente necesitas un servidor de aplicaciones externo.
-
-* **Simplicidad y Conveniencia**: Spring Boot simplifica el desarrollo proporcionando configuraciones por defecto y herramientas de desarrollo rápidas, lo que lo hace más adecuado para microservicios y prototipos rápidos.
 
 ## Estructura
 Spring Boot también tiene una estructura modular, pero está diseñada para simplificar la configuración y el desarrollo de aplicaciones Spring. Proporciona una serie de "`starter POMs`" que incluyen todas las dependencias necesarias para comenzar a trabajar con diferentes tecnologías y funcionalidades. 
