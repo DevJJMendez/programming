@@ -1,8 +1,0 @@
-- postman
-- protocolos http
-- codigos de respuesta del servidor
-- colecciones
-- env
-- testing
-- new man
-- documentar
