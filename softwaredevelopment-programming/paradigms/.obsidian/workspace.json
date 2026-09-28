@@ -1,0 +1,200 @@
+{
+  "main": {
+    "id": "504760e2967a3c63",
+    "type": "split",
+    "children": [
+      {
+        "id": "727f3425d002b44d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f00861b2d9dc569e",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b0e3295d43340114",
+    "type": "split",
+    "children": [
+      {
+        "id": "91e167b4ecde3c52",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8e8b44e5ba827e98",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "1fe1c9624b7815b3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "36e3292c673bdb37",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "a2c7ff50d756caed",
+    "type": "split",
+    "children": [
+      {
+        "id": "01bd51849a6ebce5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f14b4137e327d4f5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "c2ae35effd275f52",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "18fd71ea16931493",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "e35f1c73e0dc8a07",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {},
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "f00861b2d9dc569e",
+  "lastOpenFiles": [
+    "programming/algorithms/sorting.md",
+    "programming/algorithms/algorithms.md",
+    "programming/languages",
+    "programming/algorithms",
+    "programming/algorithms.md",
+    "programming/languages.md",
+    "programming/paradigms.md",
+    "programming/programming.md",
+    "programming",
+    "algorithms.md",
+    "programming.md",
+    "languages.md",
+    "paradigms.md",
+    "questions.md",
+    "10-dataStructures/sortingAlgorithm/sortingalgorithms/src/main/java/course/sorting/shellSort/ShellSort.java",
+    "10-dataStructures/sortingAlgorithm/sortingalgorithms/src/main/java/course/sorting/quickSort/QuickSort.java",
+    "10-dataStructures/sortingAlgorithm/sortingalgorithms/src/main/java/course/sorting/quickSort/Main.java",
+    "10-dataStructures/sortingAlgorithm/sortingalgorithms/src/main/java/course/sorting/bubbleSort/Main.java",
+    "10-dataStructures/sortingAlgorithm/sortingalgorithms/src/main/java/course/sorting/bubbleSort/BubbleSort.java",
+    "10-dataStructures/sortingAlgorithm/sortingalgorithms/src/main/java/course/search/linearSearch/LinearSearch.java",
+    "10-dataStructures/sortingAlgorithm/sortingalgorithms/target/classes/course/sorting/shellSort/ShellSort.class",
+    "10-dataStructures/sortingAlgorithm/08-bynarySearch.md",
+    "10-dataStructures/sortingAlgorithm/07-linearSearch.md",
+    "10-dataStructures/sortingAlgorithm/06-headSort.md",
+    "10-dataStructures/sortingAlgorithm/05-quickSort.md",
+    "10-dataStructures/sortingAlgorithm/04-mergeSort.md",
+    "10-dataStructures/sortingAlgorithm/03.0-shellSort.md",
+    "10-dataStructures/sortingAlgorithm/03-insertionSort.md",
+    "10-dataStructures/sortingAlgorithm/02-selectionSort.md",
+    "10-dataStructures/sortingAlgorithm/01.0-nestedLoops.md",
+    "10-dataStructures/sortingAlgorithm/01-bubbleSort.md",
+    "10-dataStructures/sortingAlgorithm/00.1-searchAlgorithms.md",
+    "10-dataStructures/sortingAlgorithm/00-sortingAlgorithms.md",
+    "10-dataStructures/images/trees.webp",
+    "10-dataStructures/images/SinglyLinkedList.png",
+    "10-dataStructures/images/Queue.png",
+    "10-dataStructures/images/DoublyLinkedList.png",
+    "10-dataStructures/questions.md",
+    "10-dataStructures/09-trees.md",
+    "10-dataStructures/08-queue.md"
+  ]
+}
