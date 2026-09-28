@@ -1,4 +1,4 @@
-# API KEY
+# AK
 Una API Key (clave de API) es un identificador único (habitualmente una cadena alfanumérica larga) que se utiliza para autenticar y en algunos casos autorizar el acceso a una API.
 
 *Es como una "contraseña pública" que una aplicación cliente incluye en sus solicitudes para identificarse ante el servidor.*
@@ -78,7 +78,7 @@ Basic Auth	🔴 Baja	🔴 Ninguno	🔴 Alta
 📌 Una API Key no sustituye a OAuth o JWT cuando se necesita autorización por usuario, scopes, roles, etc. Pero es muy útil para apps públicas, SDKs, o servicios internos.
 
 ## Casos de uso típicos
-Servicios públicos como Google Maps, Stripe, SendGrid, Twilio.
+Servicios públicos como Google Maps, SendGrid, Twilio.
 
 Comunicación entre microservicios internos.
 
